@@ -63,4 +63,4 @@
 #define SPLIT_TRANSPORT_MIRROR
 
 // Customizations
-#define TAPPING_TERM 280
+#define TAPPING_TERM 225
