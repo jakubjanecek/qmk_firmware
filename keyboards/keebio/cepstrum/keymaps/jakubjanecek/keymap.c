@@ -152,10 +152,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     LAG(KC_SLSH), KC_F10, MO(1),   KC_LCTL,     KC_LALT,     KC_LGUI,     KC_SPC,                                MO(1),          M_RAY,       KC_RALT,     MO(1),        KC_LEFT,         KC_DOWN,        KC_RGHT
   ),
   [1] = LAYOUT_65xt(
-    KC_KB_VOLUME_DOWN, KC_KB_VOLUME_UP, KC_GRV,        KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  QK_BOOT,     HYPR(KC_DEL),
-    KC_KB_MUTE,        KC_MPLY,         _______,       _______,    HYPR(KC_W), HYPR(KC_E), HYPR(KC_R), _______, EE_CLR,  _______, KC_UP  , _______, _______, _______, _______, _______,     HYPR(KC_HOME),
-    _______,           _______,         LALT(KC_BSPC), HYPR(KC_A), HYPR(KC_S), HYPR(KC_D), HYPR(KC_F), _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,          LSG(KC_ENT), M_SCRS,
-    _______,           _______,         _______,       _______,    _______,    _______,    _______, _______, _______, _______, _______, _______, _______, _______, _______,     _______,
-    _______,           _______,         _______,       _______,    _______,    _______,    M_RAY,                                 _______, M_EMO,   _______, _______, _______, _______,     _______
+    KC_KB_VOLUME_DOWN, KC_KB_VOLUME_UP, KC_GRV,        KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,   KC_F6,        KC_F7,        KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  QK_BOOT,     HYPR(KC_DEL),
+    KC_KB_MUTE,        KC_MPLY,         _______,       _______,    HYPR(KC_W), HYPR(KC_E), HYPR(KC_R), _______, EE_CLR,       _______,      KC_UP  , _______, _______, _______, _______, _______,     HYPR(KC_HOME),
+    _______,           _______,         LALT(KC_BSPC), HYPR(KC_A), HYPR(KC_S), HYPR(KC_D), HYPR(KC_F), _______, _______,      KC_LEFT,      KC_DOWN, KC_RGHT, _______, _______,          LSG(KC_ENT), M_SCRS,
+    _______,           _______,         _______,       _______,    _______,    _______,    _______,    _______, LAG(KC_LEFT), LAG(KC_RGHT), _______, _______, _______, _______, _______,              _______,
+    _______,           _______,         _______,       _______,    _______,    _______,    M_RAY,                                           _______, M_EMO,   _______, _______, _______, _______,     _______
   )
 };
